@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="dropdown">
+		<a href="#">Hover me</a>
+		<div class="dropdown-content">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		</div>
+	</div>
+</body>
+</html>
